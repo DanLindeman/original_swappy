@@ -99,7 +99,7 @@ def main():
                   'green goal': pygame.image.load('GreenSelector.png'),
                   'yellow goal': pygame.image.load('PinkSelector.png'),
                   'star': pygame.image.load('Star.png'),
-                  'corner': pygame.image.load('Wall_Block_Tall.png'),
+                  'corner': pygame.image.load('Wood_Block_Tall.png'),
                   'wall': pygame.image.load('Wood_Block_Tall.png'),
                   'inside floor': pygame.image.load('Plain_Block.png'),
                   'outside floor': pygame.image.load('Grass_Block.png'),
@@ -458,7 +458,7 @@ def decorateMap(mapObj, startxy):
     # Remove the non-wall characters from the map data
     for x in range(len(mapObjCopy)):
         for y in range(len(mapObjCopy[0])):
-            if mapObjCopy[x][y] in ('$', '.', 'G', 'B', 'Y', 'G', '+', '*', '-'):
+            if mapObjCopy[x][y] in ('$', '.', 'G', 'B', 'Y', 'R', '+', '*', '-'):
                 mapObjCopy[x][y] = ' '
 
     # Flood fill to determine inside/outside floor tiles.
