@@ -34,6 +34,326 @@
 #    g    #
 ###########
 
+; CIS 693 Research levels begin
+
+#####
+# # #
+#B#G#
+#####
+
+; First ever generated level!
+########
+#.######
+# G ####
+########
+
+; With taboo visits, and two characters!
+#########
+#.#*  B #
+#   #   #
+##G #####
+#########
+
+;First with prolog
+B.*#  #G# 
+#         
+          
+          
+          
+          
+          
+          
+          
+          
+
+
+; with reachability
+
+.#
+    #
+##  *##
+          
+  ##     #
+    G#B###
+##########
+##########
+##########
+######   #
+
+; Lol accidentally a 'good' level 2018-10-09
+
+         #
+         #
+   #   ###
+##  ###  #
+#########*
+#########
+#######
+ G #  ##B#
+##.#######
+
+; Everyone can get to their goals!
+. ggb  b
+ #
+ #   #  #
+   *# ###
+  # +b #
+ #  #B##GY
+##########
+##########
+#####-R ##
+### ######
+
+; Doors exist
+y y yyyyby
+ybbbyyyybb
+ybybbyybbb
+yyybyybyB
+b bbyybb
+y ybyy y y
+bbybbyyy b
+yb y+bbb b
+yyyb     y
+Y  * byyy
+
+; Better 
+
+  bb    bg
+  gbbggbbb
+gg bb*bggg
+ggbgBggggg
+gggbgbbgbg
+bbbgggb gb
+ gggggg bg
+bgggg .bgg
+ggbgbbgggG
+
+; okay! Doors are a special case of wall!
+gbgggbggg.
+gg bgggbgb
+gg ggbgggg
+g gbggggg*
+bgggbgbgg
+gGgggggggb
+ggB bggb b
+gggg  g  g
+g gg    bg
+
+;Wait...did it make a level with swapping? Nope, unsolvable.
+B        #
+ ### ### #
+ ####G##b
+b##   ###
+*####  #
+b#### ####
+   ## ####
+# b #    #
+# #b ###b
+  ## . ##
+
+; Solvable with swaps...but I didn't fix the bug yet...
+#*
+ ##  #  ##
+  bb#  b##
+##### # ##
+###B# # ##
+# bb###  #
+#b#  ## ##
+# ##  # ##
+ b## b# ##
+  # .#Gb##
+
+; It looks like it's happening?
+* G #
+##  ## ###
+  # ## ##
+# #bb  ##B
+#  # ####
+# ##  ###
+# ## ####
+#  b  ## b
+ b## ####
+   #.####
+
+;10-16
+* G #
+##  ## ###
+  # ## ##
+# #bb  ##B
+#  # ####
+# ##  ###
+# ## ####
+#  b  ## b
+ b## ####
+   #.####
+
+;10-16-2
+###
+# # g    #
+         #
+ ##b######
+.b#g######
+#B# #####
+#### #gGb#
+###g   # #
+##g##*gb##
+#g#bg#gg#
+
+; Added style, still no swapping
+*      ###
+    B ## #
+##g## # ##
+## ##b#b#
+      # #
+  ###g#b##
+### # # b#
+# g## #  #
+## #b # ##
+g###G.###g
+
+; Must start with a goal in sight rule added from 10-18 (added on 10-22)
+. ## ####
+  ## #  ##
+     ### #
+R####  ###
+## r#  r r
+#  -# ####
+###G###r #
+  ##    ##
+   ### ##r
+     ###r
+
+; Happy accidentally
+G    #####
+ ### #   #
+*# # # ###
+## # ### g
+# ##    ##
+### ### ##
+  g # #
+ ## # # ##
+ ##g###b##
+B        .
+
+; Did not solve islands (10-22)
+##+  #####
+##   #   #
+b  ###   #
+## #     #
+## ## ##y#
+    # ## #
+ * B##   #
+### b#  y#
+# #  #Y###
+###  ###y
+
+; Cool looking
+##########
+#  -  r r#
+#  ####  #
+#R##  #  #
+### ###  #
+   ##r   #
+####  Bb##
+#* b  b##
+########
+
+; Accidental win with swapping
+ ### ###b
+ # # # ##
+ ### ## #
+    G ###
+ ####*
+g#b # ###
+## .### ##
+# B      #
+#####  ###
+    ####b
+
+; Interesting that it didn't make doors... Oh this was "You have to be able to see your own goal"
+###G###R
+# # # ###
+###.## +#
+     #Y #
+ ### ## #
+ # #  ###
+ #*###
+##B  #  ##
+#  ###  ##
+####   -
+
+; An actual good level. 2018-11-01
+######  ##
+# *  ## ##
+##  R #B
+ # #### ##
+## #    ##
+#b ## ##G
+#  r# ##+
+#   #  r##
+#r ##   ##
+####b    .
+
+; demo-day
+#### ###
+#. ### #
+#B    ##
+#### ##g
+g *#b#g
+## # #
+##b###
+    G   
+
+; Oh okay now -- this one is actually pretty good!
++R   ###
+ ### # #
+b# ###b#
+##   b #
+#  ###r#
+##.#B#G#
+r###b###
+*
+
+; Behaving
+##g## ##
+## ##g##
+        
+ ##b##  
+ ## ## *
+BbG  b##
+##b## ##
+## ##  .
+
+; --
+ B  ##*G
+### ##b 
+# #  b##
+###  +##
+b r    b
+##### ##
+# r #b##
+##### R.
+
+; with some help
+##R##G #
+##r##r##
+ *+ b  b
+.   b###
+    ## #
+### # ##
+# #g###b
+### B
+
+; Cool!
+#####* G
+#+B #
+###r#b##
+b # # ##
+###b#  g
+# b # ##
+#####b##
+ R     .
+
 ; There are more of us
 
 #################
@@ -96,11 +416,11 @@
 #    b          #
 #    b          #
 #    #######gggg#
-#    #     #    #
 # .  # B * #    #
+#    #     #    #
 ############    #
-#          b    #
 # G        b    #
+#          b    #
 #################
 
 ;They meet a third
